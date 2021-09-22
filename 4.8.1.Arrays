@@ -1,10 +1,10 @@
-//Display elements at indices 1 and 4 in the array numberList separated by a space.
+//1. Display elements at indices 1 and 4 in the array numberList separated by a space.
 let numberList = [1, 6, 41, 8, 24, 4];
 console.log(numberList[1] + " " + numberList[4]);
 
 
 
-//Loop through the array displaying the values in order.
+//2. Loop through the array displaying the values in order.
 let namesList = [ "Ann", "Bob", "Joe", "Ron" ]; // Tests will use different arrays
 
 //Sorts the names
@@ -19,7 +19,7 @@ for (let i in namesList) {
 
 
 
-//Divide each element in sourceArray with the corresponding value in offsetAmount. Store each value in a new array named destinationArray.
+//3. Divide each element in sourceArray with the corresponding value in offsetAmount. Store each value in a new array named destinationArray.
 let sourceArray = [ 40, 50, 60, 70 ]; // Tests will use different arrays
 let offsetAmount = [ 2, 5, 8, 4 ]; // Tests will use different arrays
 let destinationArray = [];
